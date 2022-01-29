@@ -17,7 +17,7 @@ font-weight: bolder;
 
 }
 
-.container{
+container{
 
     display:grid;
     border-style: double;
@@ -25,6 +25,14 @@ font-weight: bolder;
     background-color: rgb(206, 149, 131);
 
 }
+
+p{
+    size: 0.5rem;
+    border: solid 0.5rem cornflowerblue;
+}
+
+
+
 /* Adjusts the elements to the screen size for Tablet */
 @media screen and (min-width:600px){
 
@@ -37,5 +45,5 @@ font-weight: bolder;
 /* Adjusts the elements to the screen size for Maximum Web Page size */
 @media screen and (min-width:900px){
 
-    
+
 }
