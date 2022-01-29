@@ -25,3 +25,17 @@ font-weight: bolder;
     background-color: rgb(206, 149, 131);
 
 }
+/* Adjusts the elements to the screen size for Tablet */
+@media screen and (min-width:600px){
+
+    .body{
+
+
+    }
+}
+
+/* Adjusts the elements to the screen size for Maximum Web Page size */
+@media screen and (min-width:900px){
+
+    
+}
