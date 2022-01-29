@@ -1,4 +1,23 @@
 .body{
+    display:grid;
     box-sizing:border-box;
+    margin: 0.5em;
+
     }
 
+.h1{
+
+display: grid;
+align-items: center;
+font-size:4rem;
+font-family:Lucida Sans Unicode;
+font-weight: bolder;
+
+}
+
+.container{
+
+    display:grid;
+    border-radius: 2rem;
+
+}
