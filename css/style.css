@@ -2,8 +2,10 @@
     display:grid;
     box-sizing:border-box;
     margin: 0.5em;
+    background-color: aqua;
 
     }
+
 
 .h1{
 
@@ -18,6 +20,8 @@ font-weight: bolder;
 .container{
 
     display:grid;
-    border-radius: 2rem;
+    border-style: double;
+    border: 2rem;
+    background-color: rgb(206, 149, 131);
 
 }
