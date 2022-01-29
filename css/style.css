@@ -29,10 +29,13 @@ container{
 p{
     size: 0.5rem;
     border: solid 0.5rem cornflowerblue;
-    width: 25%;
+    width: 10%;
 }
 
-
+code{
+    width:10%;
+    size: 0.5em;
+}
 
 /* Adjusts the elements to the screen size for Tablet */
 @media screen and (min-width:600px){
