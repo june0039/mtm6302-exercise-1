@@ -21,7 +21,7 @@ font-weight: bolder;
 
     display:grid;
     border-style: double;
-    border: 2rem;
+    border:solid 2rem cornflowerblue;
     background-color: rgb(206, 149, 131);
 
 }
