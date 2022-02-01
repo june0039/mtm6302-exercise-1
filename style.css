@@ -32,9 +32,9 @@ p{
     width: 10%;
 }
 
-code{
-    width:10%;
-    size: 0.5em;
+span{
+
+    align-items: center;
 }
 
 /* Adjusts the elements to the screen size for Tablet */
