@@ -1,56 +1,81 @@
-.body{
-    display:grid;
-    box-sizing:border-box;
-    margin: 0.5em;
-    background-color: aqua;
+/* sets the body of the program to 100% */
+body{
 
+    width:100%;
+}
+
+/* Emoji changes the elements and characteristics of the added emoji */
+.emoji { 
+
+    display: grid;
+    justify-self: center;
+    color:crimson;
+    size:0.5rem;
+    border: solid 0.3rem palegoldenrod;
+    width:100px;
     }
 
+    /* Emojis changes the styles and elements of the emoji containter */
+.emojis{
+    
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap:30px;
+    padding: 10px;
+    }
+/* H1 changes the elements and characteristics of the header h1 */
 
-.h1{
+h1{
 
-display: grid;
-align-items: center;
-font-size:4rem;
+text-align: center;
+color:palevioletred;
+font-size:2rem;
 font-family:Lucida Sans Unicode;
 font-weight: bolder;
-
 }
 
-container{
-
-    display:grid;
-    border-style: double;
-    border:solid 2rem cornflowerblue;
-    background-color: rgb(206, 149, 131);
-
-}
-
-p{
-    size: 0.5rem;
-    border: solid 0.5rem cornflowerblue;
-    width: 10%;
-}
-
-span{
-
-    align-items: center;
-}
 
 /* Adjusts the elements to the screen size for Tablet */
 @media screen and (min-width:600px){
 
-    .body{
 
-    width:50%;
+ h1{
+     
+     font-size: 3rem;
+     color:palegreen;
  }
 
- 
+ .emoji{
+     
+     
+     color:darkblue;
+     border:solid 0.4rem cornflowerblue;
+ }
+
+ .emojis {
+     grid-template-columns: auto auto auto auto;
+
+ }
 
 }
 
 /* Adjusts the elements to the screen size for Maximum Web Page size */
-@media screen and (min-width:900px){
+@media screen and (min-width:1200px){
 
+h1 {
 
+        font-size: 4rem;
+        color: paleturquoise;
+}
+
+    .emoji{
+
+    
+        color: purple;
+        border: solid 0.5rem plum;
+}
+
+    .emojis {
+       grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    }
 }
